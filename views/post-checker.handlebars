@@ -1,0 +1,13 @@
+<h1>POST Request Received.</h1>
+<h2> Data in Query String:</h2>
+<ul>
+  {{#each dataListQuery}}
+    <li>{{this.name}}: {{this.value}}
+  {{/each}}
+</ul>
+<h2> Data in POST Body:</h2>
+<ul>
+  {{#each dataListBody}}
+    <li>{{this.name}}: {{this.value}}
+  {{/each}}
+</ul>
